@@ -12,17 +12,6 @@ body {
   width: 100%;
 }
 
-a:link,
-a:visited,
-a:active {
-  text-decoration: none;
-  color: white;
-}
-
-.ul {
-  list-style-type: none;
-  left: 250px;
-}
 
 header {
   width: 100%;
@@ -40,20 +29,17 @@ header {
 }
 
 #logo {
-  position: absolute;
-  top: 10px;
-  left: 5px;
   border-radius: 10px;
-  width: 150px;
+  width: 75px;
 }
 
 .titulo2 {
-  font-size: 25px;
-  margin-top: 0%;
+  font-size:2.5em;
+  margin-top: 1%;
   color: rgb(255, 136, 0);
   position: absolute;
-  top: 65px;
-  left: 170px;
+  top: 100px;
+  left: 1%;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
@@ -67,29 +53,16 @@ header {
   color: white;
 }
 
-nav ul {
-  width: 100%;
-  height: 55px;
-  position: fixed;
-  left: 0px;
-  top: 84px;
-  font-family: "Gothic A1", sans-serif;
-  color: black;
-  margin-left: 0%;
+
+li:hover
+{
+  background-color: orangered;
+  color: white;
+  text-transform: uppercase;
 }
 
-nav ul li {
-  width: 100%;
-  height: 55px;
-  font-family: "Gothic A1", sans-serif;
-  align-items: center;
-  justify-content: center;
-  width: auto;
-  margin: 0px;
-  float: center;
-  text-decoration: none;
-  list-style: none;
-}
+
+
 
 #imagen {
   margin-left: 120px;
@@ -354,13 +327,13 @@ footer {
 }
   
   
-
+/*
 #listanav li:nth-child(2)
 {
   text-transform:capitalize
 }
 
 
-/* link , visited, hover, active */
+ link , visited, hover, active */
 
 
