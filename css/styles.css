@@ -13,20 +13,7 @@ body {
 }
 
 
-header {
-  width: 100%;
-  height: 180px;
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  font-family: "Gothic A1", sans-serif;
-  color: black;
-  background-image: linear-gradient(
-    rgb(41, 41, 95),
-    rgb(51, 51, 134),
-    rgb(101, 101, 214)
-  );
-}
+
 
 #logo {
   border-radius: 10px;
@@ -61,7 +48,12 @@ li:hover
   text-transform: uppercase;
 }
 
-
+#carouselSection{
+  margin-top: 20px;
+  width: 80%;
+  height: 80%;
+  
+}
 
 
 #imagen {
@@ -160,11 +152,11 @@ li:hover
   background-color: rgb(106, 80, 255);
   opacity: 150%;
   border-radius: 10px;
-  font-size: 25px;
+  font-size: 100%;
   font-family: "DM Sans", sans-serif;
   text-align: justify;
   padding: 10px;
-  width: 1180px;
+  width: 100%;
   color: rgb(236, 219, 219);
 }
 
