@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+
+
+
 body {
   background-image: url("/img/bg2.png");
   background-size: 20%;
@@ -12,33 +15,15 @@ body {
   width: 100%;
 }
 
-
+header { position: fixed; width: 100%; z-index: 1000; top:0px; } 
 
 
 #logo {
   border-radius: 10px;
-  width: 75px;
+  width: 50px;
 }
 
-.titulo2 {
-  font-size:2.5em;
-  margin-top: 1%;
-  color: rgb(255, 136, 0);
-  position: absolute;
-  top: 100px;
-  left: 1%;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-}
 
-.titulo1 {
-  position: absolute;
-  top: 5px;
-  left: 170px;
-  font-size: 60px;
-  margin-top: 0%;
-  color: white;
-}
 
 
 li:hover
@@ -49,10 +34,10 @@ li:hover
 }
 
 #carouselSection{
-  margin-top: 20px;
-  width: 80%;
-  height: 80%;
   
+  width: 75%;
+  height: 80%;
+
 }
 
 
@@ -62,41 +47,6 @@ li:hover
   box-shadow:trfe 40px 40px 50px orangered;
 }
 
-#inicio {
-  position: absolute;
-  top: 20px;
-  left: 170px;
-}
-
-#historia {
-  position: absolute;
-  top: 20px;
-  left: 350px;
-}
-
-#equipo {
-  position: absolute;
-  top: 20px;
-  left: 530px;
-}
-
-#servicios {
-  position: absolute;
-  top: 20px;
-  left: 710px;
-}
-
-#socios {
-  position: absolute;
-  top: 20px;
-  left: 890px;
-}
-
-#contacto {
-  position: absolute;
-  top: 20px;
-  left: 1070px;
-}
 
 .linea {
   position: absolute;
@@ -131,20 +81,23 @@ li:hover
 }
 
 .icons {
-  font-size: 46px;
+  z-index: 10;
+  font-size: 26px;
   margin: 0px;
-  color: white;
+  color: black;
 }
 
-.card {
-  z-index: -1;
-  background-image: linear-gradient(rgb(5, 5, 88), rgb(41, 41, 177));
-  border-radius: 10px;
-  height: 280px;
-  width: 230px;
-  text-align: center;
-  display: block;
-  color: #fff;
+#tituloPrincipal
+{
+  background-color: rgb(106, 80, 255);
+  
+  border-radius: 30px 10px 30px ;
+  
+  font-family: "DM Sans", sans-serif;
+  text-align: justify;
+  padding: 10px;
+  width: 100%;
+  color:white;
 }
 
 #textoPrincipal {
@@ -211,12 +164,12 @@ li:hover
 #twitter {
   position: absolute;
   top: 10px;
-  left: 1200px;
+  left: 1240px;
 }
 #linkedin {
   position: absolute;
   top: 10px;
-  left: 1250px;
+  left: 1270px;
 }
 #facebook {
   position: absolute;
@@ -318,14 +271,3 @@ footer {
   text-transform: uppercase;
 }
   
-  
-/*
-#listanav li:nth-child(2)
-{
-  text-transform:capitalize
-}
-
-
- link , visited, hover, active */
-
-
