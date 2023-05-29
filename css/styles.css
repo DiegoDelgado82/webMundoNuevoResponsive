@@ -1,0 +1,366 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("/img/bg2.png");
+  background-size: 20%;
+  font-family: "DM Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+}
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: white;
+}
+
+.ul {
+  list-style-type: none;
+  left: 250px;
+}
+
+header {
+  width: 100%;
+  height: 180px;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  font-family: "Gothic A1", sans-serif;
+  color: black;
+  background-image: linear-gradient(
+    rgb(41, 41, 95),
+    rgb(51, 51, 134),
+    rgb(101, 101, 214)
+  );
+}
+
+#logo {
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  border-radius: 10px;
+  width: 150px;
+}
+
+.titulo2 {
+  font-size: 25px;
+  margin-top: 0%;
+  color: rgb(255, 136, 0);
+  position: absolute;
+  top: 65px;
+  left: 170px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.titulo1 {
+  position: absolute;
+  top: 5px;
+  left: 170px;
+  font-size: 60px;
+  margin-top: 0%;
+  color: white;
+}
+
+nav ul {
+  width: 100%;
+  height: 55px;
+  position: fixed;
+  left: 0px;
+  top: 84px;
+  font-family: "Gothic A1", sans-serif;
+  color: black;
+  margin-left: 0%;
+}
+
+nav ul li {
+  width: 100%;
+  height: 55px;
+  font-family: "Gothic A1", sans-serif;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  margin: 0px;
+  float: center;
+  text-decoration: none;
+  list-style: none;
+}
+
+#imagen {
+  margin-left: 120px;
+  border-style: none;
+  box-shadow:trfe 40px 40px 50px orangered;
+}
+
+#inicio {
+  position: absolute;
+  top: 20px;
+  left: 170px;
+}
+
+#historia {
+  position: absolute;
+  top: 20px;
+  left: 350px;
+}
+
+#equipo {
+  position: absolute;
+  top: 20px;
+  left: 530px;
+}
+
+#servicios {
+  position: absolute;
+  top: 20px;
+  left: 710px;
+}
+
+#socios {
+  position: absolute;
+  top: 20px;
+  left: 890px;
+}
+
+#contacto {
+  position: absolute;
+  top: 20px;
+  left: 1070px;
+}
+
+.linea {
+  position: absolute;
+  top: -10px;
+
+  color: white;
+  font-size: 20px;
+}
+
+.botonMenu {
+  border: black;
+  background-color: rgb(5, 5, 88);
+  font-size: 18px;
+  padding-top: 8px;
+  height: 40px;
+  width: 170px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: white;
+}
+
+.imagenNuevoMundo {
+  border-color: orange;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 5px;
+  width: 60%;
+}
+
+.centrado {
+  margin-left: 300px;
+}
+
+.icons {
+  font-size: 46px;
+  margin: 0px;
+  color: white;
+}
+
+.card {
+  z-index: -1;
+  background-image: linear-gradient(rgb(5, 5, 88), rgb(41, 41, 177));
+  border-radius: 10px;
+  height: 280px;
+  width: 230px;
+  text-align: center;
+  display: block;
+  color: #fff;
+}
+
+#textoPrincipal {
+  display: block;
+  background-color: rgb(106, 80, 255);
+  opacity: 150%;
+  border-radius: 10px;
+  font-size: 25px;
+  font-family: "DM Sans", sans-serif;
+  text-align: justify;
+  padding: 10px;
+  width: 1180px;
+  color: rgb(236, 219, 219);
+}
+
+#textoPrincipalH {
+  display: block;
+  margin-bottom: 492px;
+  background-color: rgb(106, 80, 255);
+  opacity: 150%;
+  border-radius: 10px;
+  font-size: 25px;
+  font-family: "DM Sans", sans-serif;
+  text-align: justify;
+  padding: 10px;
+  width: 1180px;
+  color: rgb(236, 219, 219);
+}
+
+#textoPrincipal1 {
+  background-color: orange;
+  border-color: orangered;
+  border-style: solid;
+  padding: 10px;
+
+  border-radius: 20px;
+  color: orangered;
+  font-size: 45px;
+  width: 1200px;
+  text-align: center;
+}
+
+#servicio {
+  margin-top: 300px;
+  margin-bottom: 600px;
+}
+#acce1 {
+  position: absolute;
+  left: 300px;
+}
+#acce2 {
+  position: absolute;
+  left: 620px;
+}
+#acce3 {
+  position: absolute;
+  left: 940px;
+}
+#acce4 {
+  position: absolute;
+  left: 1260px;
+}
+
+#twitter {
+  position: absolute;
+  top: 10px;
+  left: 1200px;
+}
+#linkedin {
+  position: absolute;
+  top: 10px;
+  left: 1250px;
+}
+#facebook {
+  position: absolute;
+  top: 10px;
+  left: 1300px;
+}
+#whatsapp {
+  position: absolute;
+  top: 10px;
+  left: 1150px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  align-items: center;
+  text-align: center;
+}
+
+.leyenda {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-top: 0%;
+}
+
+.leyendaMundo {
+  padding-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-top: 0%;
+  font-size: 25px;
+}
+
+#logoFooter {
+  display: block;
+  width: 5%;
+  border-radius: 10px;
+}
+
+/* Apartado Historia */
+
+.centradoH {
+  margin-top: 200px;
+  margin-left: 300px;
+}
+
+/* Apartado Contacto */
+
+.formulario-container {
+  width: 30%;
+  height: 280px;
+  margin-left: 10%;
+  margin-top: 10px;
+  margin-bottom: 240px;
+
+  background-color: rgb(255, 136, 0);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.formulario-container label {
+  width: 220px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+}
+
+.centradoC {
+  margin-top: 200px;
+  margin-left: 200px;
+}
+
+   
+
+#botonEnviar {
+  width: 70px;
+}
+
+/* Apartado Servicios */
+
+.centradoSer {
+  margin-top: 50px;
+  margin-left: 300px;
+}
+
+#consulta {
+  width: 250px;
+  height: 70px;
+  resize: none;
+}
+
+
+ .botonMenu:hover
+{
+  background-color: orangered;
+  color: white;
+  text-transform: uppercase;
+}
+  
+  
+
+#listanav li:nth-child(2)
+{
+  text-transform:capitalize
+}
+
+
+/* link , visited, hover, active */
+
+

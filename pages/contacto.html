@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+
+    <title>Mundo Nuevo</title>
+  </head>
+
+  <body>
+    <header>
+      <img id="logo" src="/img/logoOrigin.jpg" alt="logo" />
+      <h1 class="titulo1">Mundo Nuevo</h1>
+      <br />
+      <b><p class="titulo2">Centro de Rehabilitación Neurológica</p></b>
+
+      <div class="icons">
+        <i class="fa fa-facebook-square" id="facebook"></i>
+        <i class="fa fa-linkedin-square" id="linkedin"></i>
+        <i class="fa fa-twitter-square" id="twitter"></i>
+      </div>
+      <b
+        ><nav>
+          <ul>
+            <li class="botonMenu" id="inicio">
+              <i class="fa fa-home"></i><a href="/index.html">&nbsp Inicio</a>
+            </li>
+            <li class="botonMenu" id="historia">
+              <i class="fa fa-history"></i
+              ><a href="./historia.html" target="_self">&nbsp Historia</a>
+            </li>
+            <li class="botonMenu" id="equipo">
+              <i class="fa fa-users"></i
+              ><a href="./equipo.html" target="_self">&nbsp Equipo</a>
+            </li>
+            <li class="botonMenu" id="servicios">
+              <i class="fa fa-cogs"></i
+              ><a href="./servicios.html" target="_self">&nbsp Servicios</a>
+            </li>
+            <li class="botonMenu" id="socios">
+              <i class="fa fa-handshake-o"></i
+              ><a href="./socios.html" target="_self">&nbsp Socios</a>
+            </li>
+            <li class="botonMenu" id="contacto">
+              <i class="fa fa-map-marker"></i
+              ><a href="./contacto.html" target="_self">&nbsp Contacto</a>
+            </li>
+          </ul>
+        </nav>
+      </b>
+    </header>
+
+    <main>
+      <div class="centradoC">
+        <h1>Contacto</h1>
+        <b
+          ><p id="">
+            Gregorio Velez 4019 - B° Cerro de las Rosas - Córdoba - Argentina
+          </p>
+          <p id="">Teléfono: 0351 -4823435</p>
+        </b>
+
+        <iframe
+          id="mapa"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3406.4030630791194!2d-64.23719454359504!3d-31.375447930504112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943299293540815b%3A0x102682570756a09e!2sGregorio%20V%C3%A9lez%204019%2C%20X5009AFM%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1683115062503!5m2!1ses-419!2sar"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <br /><br />
+        <b
+          ><p id="parrafoContacto">
+            Para recibir más información, completá el formulario. En breve nos
+            pondremos en contacto
+          </p></b
+        >
+      </div>
+      <div class="formulario-container">
+        <form>
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required /><br /><br />
+
+          <label for="email">Email: &nbsp; &nbsp;</label>
+          <input type="email" id="email" name="email" required /><br /><br />
+
+          <label for="telefono">Teléfono:</label>
+          <input
+            type="tel"
+            id="telefono"
+            name="telefono"
+            required
+          /><br /><br />
+
+          <label for="provincia">Provincia:</label>
+          <select name="provincia" required>
+            <option value="">Seleccione una provincia</option>
+            <option value="Buenos Aires">Buenos Aires</option>
+            <option value="Catamarca">Catamarca</option>
+            <option value="Chaco">Chaco</option>
+            <option value="Chubut">Chubut</option>
+            <option value="Ciudad Autónoma de Buenos Aires">
+              Ciudad Autónoma de Buenos Aires
+            </option>
+            <option value="Córdoba">Córdoba</option>
+            <option value="Corrientes">Corrientes</option>
+            <option value="Entre Ríos">Entre Ríos</option>
+            <option value="Formosa">Formosa</option>
+            <option value="Jujuy">Jujuy</option>
+            <option value="La Pampa">La Pampa</option>
+            <option value="La Rioja">La Rioja</option>
+            <option value="Mendoza">Mendoza</option>
+            <option value="Misiones">Misiones</option>
+            <option value="Neuquén">Neuquén</option>
+            <option value="Río Negro">Río Negro</option>
+            <option value="Salta">Salta</option>
+            <option value="San Juan">San Juan</option>
+            <option value="San Luis">San Luis</option>
+            <option value="Santa Cruz">Santa Cruz</option>
+            <option value="Santa Fe">Santa Fe</option>
+            <option value="Santiago del Estero">Santiago del Estero</option>
+            <option value="Tierra del Fuego">Tierra del Fuego</option>
+            <option value="Tucumán">Tucumán</option></select
+          ><br /><br />
+          <label for="consulta">Consulta:</label>
+          <textarea type="text" name="consulta" id="consulta"></textarea><br />
+          <input id="botonEnviar" type="submit" value="Enviar" />
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <p class="leyendaMundo">
+        MundoNuevo. Gregorio Vélez 4019 - Cerro de las Rosas CP: 5009 - Córdoba
+        Capital - Argentina Tel: +54 351-4823435
+      </p>
+      <p class="leyenda">© 2022 - 2023 Todos los derechos reservados</p>
+      <p class="leyenda">Diseñado por Think Solutions <br /></p>
+      <p class="leyenda"></p>
+    </footer>
+  </body>
+</html>
