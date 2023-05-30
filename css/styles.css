@@ -47,6 +47,44 @@ li:hover
   box-shadow:trfe 40px 40px 50px orangered;
 }
 
+/********** Menu paginas sin boostrap**********/
+#inicio {
+  position: absolute;
+  top: 20px;
+  left: 170px;
+}
+
+#historia {
+  position: absolute;
+  top: 20px;
+  left: 350px;
+}
+
+#equipo {
+  position: absolute;
+  top: 20px;
+  left: 530px;
+}
+
+#servicios {
+  position: absolute;
+  top: 20px;
+  left: 710px;
+}
+
+#socios {
+  position: absolute;
+  top: 20px;
+  left: 890px;
+}
+
+#contacto {
+  position: absolute;
+  top: 20px;
+  left: 1070px;
+}
+
+
 
 .linea {
   position: absolute;
