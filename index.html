@@ -25,6 +25,7 @@
           <a class="navbar-brand" href="#"
             ><img id="logo" src="./img/logoOrigin.jpg" alt="logo"
           /></a>
+
           <button
             class="navbar-toggler"
             type="button"
@@ -42,7 +43,7 @@
                 <a
                   class="nav-link active"
                   aria-current="page"
-                  href="index2.html"
+                  href="index.html"
                   >Inicio</a
                 >
               </li>
@@ -65,27 +66,27 @@
           </div>
         </div>
       </nav>
-      <div class="icons">
-        <i class="fa fa-facebook-square" id="facebook"></i>
-        <i class="fa fa-linkedin-square" id="linkedin"></i>
-        <i class="fa fa-twitter-square" id="twitter"></i>
-      </div>
     </header>
 
     <main>
-      
-
       <section class="container-fluid mt-30" id="carouselSection">
-         <h1 class="h1 mt-4 mb-4 " id="superior">Titulo</h1>
-        <h2 class="h2 col-12 mt-4 " id="tituloPrincipal">
+       <div class="row">
+        <h1 class="h1 mt-4 mb-4 col-12" id="superior">Titulo</h1>
+        <h2 class="h2 mt-4 " id="tituloPrincipal">
           Centro de Rehabilitación Neurológica Nuevo Mundo
         </h2>
-        <div
+       <!-- <div class="icons">
+          <i class="fa fa-facebook-square" id="facebook"></i>
+          <i class="fa fa-linkedin-square" id="linkedin"></i>
+          <i class="fa fa-twitter-square" id="twitter"></i>
+        </div>
+        -->
+        <div 
           id="carouselExampleRide"
-          class="carousel slide"
+          class="carousel slide col-12 "
           data-bs-ride="true"
         >
-          <div class="carousel-inner">
+          <div class="carousel-inner col-12">
             <div class="carousel-item active">
               <img src="img/carousel/01.png" class="d-block w-100" alt="..." />
             </div>
@@ -112,8 +113,9 @@
             <span class="visually-hidden">Next</span>
           </button>
         </div>
+      </div>
       </section>
-<!--
+      <!--
       <section class="container-fluid">
         <div class="container text-center mt-4">
           <div class="row">
@@ -137,7 +139,7 @@
         <div class="row">
           <div class="col-1"></div>
 
-          <div class="col-10">
+          <div class="col-12">
             <p id="textoPrincipal">
               El Centro de Rehabilitación Mundo Nuevo desarrolla actividades de
               Prevención, Diagnóstico y Tratamiento de desórdenes neurológicos a
@@ -153,41 +155,43 @@
       </section>
 
       <section class="container-fluid">
-        <div class="row text-center w-100 mb-4">
-          <div class="col-4 text-bg-light">
-            <img
-              class="card-img-top"
-              src="./img/acces01.png"
-              alt="Trastornos Motores y Sensoriales"
-            />
-            <div class="card-body">
-              <h5 class="card-title mt-2 mb-2">
-                Trastornos Motores y Sensoriales
-              </h5>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body text-center bg-info">
+                <h5 class="card-title">Trastornos Motores y Sensoriales</h5>
+                <img
+                  class="card-img-top w-50 text-center"
+                  src="./img/acces01.png"
+                  alt="Trastornos Motores y Sensoriales"
+                />
+              </div>
             </div>
           </div>
-
-          <div class="col-4 text-bg-light">
-            <img
-              class="card-img-top"
-              src="./img/acces02.png"
-              alt="Trastornos Neurocognitivos"
-            />
-            <div class="card-body">
-              <h5 class="card-title mt-2 mb-2">Trastornos Neurocognitivos</h5>
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body text-center bg-info">
+                <h5 class="card-title">Trastornos Neurocognitivos</h5>
+                <img
+                  class="card-img-top w-50 text-center"
+                  src="./img/acces02.png"
+                  alt="Trastornos Neurocognitivos"
+                />
+              </div>
             </div>
           </div>
-
-          <div class="col-4 text-bg-light">
-            <img
-              class="card-img-top"
-              src="./img/acces03.png"
-              alt=" Trastornos de la Comunicación y el Lenguaje"
-            />
-            <div class="card-body">
-              <h5 class="card-title mt-2 mb-2">
-                Trastornos de la Comunicación y el Lenguaje
-              </h5>
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body text-center bg-info">
+                <h5 class="card-title">
+                  Trastornos de Comunicación y Lenguaje
+                </h5>
+                <img
+                  class="card-img-top w-50 text-center"
+                  src="./img/acces03.png"
+                  alt=" Trastornos de la Comunicación y el Lenguaje"
+                />
+              </div>
             </div>
           </div>
         </div>

@@ -35,7 +35,7 @@ li:hover
 
 #carouselSection{
   
-  width: 75%;
+  width: 100%;
   height: 80%;
 
 }
@@ -121,7 +121,8 @@ li:hover
 .icons {
   z-index: 10;
   font-size: 26px;
-  margin: 0px;
+  width: 100%;
+  margin-left:90%;
   color: black;
 }
 
@@ -133,20 +134,25 @@ li:hover
 
 #tituloPrincipal
 {
-  background-color: rgb(106, 80, 255);
+  background-color: rgb(226, 107, 27);
   
   border-radius: 30px 10px 30px ;
   
   font-family: "DM Sans", sans-serif;
   text-align: left;
   padding: 10px;
-  width: 100%;
+ 
   color:white;
+}
+
+#cards
+{
+  
 }
 
 #textoPrincipal {
   display: block;
-  background-color: rgb(106, 80, 255);
+  background-color: rgb(226, 107, 27);
   opacity: 150%;
   border-radius: 10px;
   font-size: 100%;
@@ -155,6 +161,7 @@ li:hover
   padding: 10px;
   width: 100%;
   color: rgb(236, 219, 219);
+  border-radius: 30px 10px 30px ;
 }
 
 #textoPrincipalH {
@@ -205,26 +212,7 @@ li:hover
   left: 1260px;
 }
 
-#twitter {
-  position: absolute;
-  top: 10px;
-  left: 900px;
-}
-#linkedin {
-  position: absolute;
-  top: 10px;
-  left: 930px;
-}
-#facebook {
-  position: absolute;
-  top: 10px;
-  left: 960px;
-}
-#whatsapp {
-  position: absolute;
-  top: 10px;
-  left: 1150px;
-}
+
 
 footer {
   background-color: black;
