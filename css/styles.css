@@ -4,9 +4,6 @@
   box-sizing: border-box;
 }
 
-
-
-
 body {
   background-image: url("../img/bg2.png");
   background-size: 20%;
@@ -15,36 +12,33 @@ body {
   width: 100%;
 }
 
-header { position: fixed; width: 100%; z-index: 1000; top:0px; } 
-
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  top: 0px;
+}
 
 #logo {
   border-radius: 10px;
   width: 50px;
 }
 
-
-
-
-li:hover
-{
+li:hover {
   background-color: orangered;
   color: white;
   text-transform: uppercase;
 }
 
-#carouselSection{
-  
+#carouselSection {
   width: 100%;
   height: 80%;
-
 }
-
 
 #imagen {
   margin-left: 120px;
   border-style: none;
-  box-shadow:trfe 40px 40px 50px orangered;
+  box-shadow: trfe 40px 40px 50px orangered;
 }
 
 /********** Menu paginas sin boostrap**********/
@@ -84,8 +78,6 @@ li:hover
   left: 1070px;
 }
 
-
-
 .linea {
   position: absolute;
   top: -10px;
@@ -122,32 +114,28 @@ li:hover
   z-index: 10;
   font-size: 26px;
   width: 100%;
-  margin-left:90%;
+  margin-left: 90%;
   color: black;
 }
 
-#superior
-{
+#superior {
   width: 100%;
-  color:white;
+  color: white;
 }
 
-#tituloPrincipal
-{
+#tituloPrincipal {
   background-color: rgb(226, 107, 27);
-  
-  border-radius: 30px 10px 30px ;
-  
+
+  border-radius: 30px 10px 30px;
+
   font-family: "DM Sans", sans-serif;
   text-align: left;
   padding: 10px;
- 
-  color:white;
+
+  color: white;
 }
 
-#cards
-{
-  
+#cards {
 }
 
 #textoPrincipal {
@@ -161,7 +149,7 @@ li:hover
   padding: 10px;
   width: 100%;
   color: rgb(236, 219, 219);
-  border-radius: 30px 10px 30px ;
+  border-radius: 30px 10px 30px;
 }
 
 #textoPrincipalH {
@@ -212,8 +200,6 @@ li:hover
   left: 1260px;
 }
 
-
-
 footer {
   background-color: black;
   color: white;
@@ -249,39 +235,14 @@ footer {
 }
 
 /* Apartado Contacto */
-
-.formulario-container {
-  width: 30%;
-  height: 280px;
-  margin-left: 10%;
-  margin-top: 10px;
-  margin-bottom: 240px;
-
-  background-color: rgb(255, 136, 0);
-  border-radius: 10px;
-  padding: 20px;
+#mapa {
+  height: 400px;
 }
-
-.formulario-container label {
-  width: 220px;
-  margin-left: 50px;
-  margin-bottom: 10px;
-  padding: 15px;
-  border-radius: 5px;
-  border: none;
+#formulario {
+  background-color: rgb(226, 107, 27);
+  border-radius: 30px 10px 30px;
+  color: white;
 }
-
-.centradoC {
-  margin-top: 200px;
-  margin-left: 200px;
-}
-
-   
-
-#botonEnviar {
-  width: 70px;
-}
-
 /* Apartado Servicios */
 
 .centradoSer {
@@ -295,11 +256,8 @@ footer {
   resize: none;
 }
 
-
- .botonMenu:hover
-{
+.botonMenu:hover {
   background-color: orangered;
   color: white;
   text-transform: uppercase;
 }
-  
