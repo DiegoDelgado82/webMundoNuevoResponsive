@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-size: 20%;
+  font-family: "Rubik", sans-serif;
+  width: 100%;
+}
+body header {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  top: 0px;
+}
+body #logo {
+  border-radius: 10px;
+  width: 50px;
+}
+body li:hover {
+  background-color: orangered;
+  text-transform: uppercase;
+}
+body .imgCarousel {
+  position: absolute;
+  top: 88%;
+  left: -2%;
+}
+body .carouselIndex {
+  justify-content: center;
+  align-items: center;
+}
+body footer {
+  background-color: black;
+  color: white;
+  align-items: center;
+  text-align: center;
+}
+body .logo_Footer {
+  margin-top: 20px;
+  width: 20%;
+  border-radius: 10px;
+}
+body .leyendaFooter {
+  text-align: left !important;
+  display: block;
+  margin-bottom: 0px;
+  font-size: 1rem;
+}
+body .redes {
+  margin-top: 5px;
+  width: 15%;
+  font-size: 2rem;
+  text-align: center;
+}
+
+/*# sourceMappingURL=main.css.map */
