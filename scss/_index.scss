@@ -14,6 +14,17 @@ body {
     width: 100%;
     z-index: 1;
     top: 0px;
+
+    .botonMenu:hover {
+        background-color: orangered;
+       
+        text-transform: uppercase;
+      }
+
+      li:hover {
+        background-color: orangered;
+        text-transform: uppercase;
+      }
   }
 
   #logo {
@@ -21,19 +32,16 @@ body {
     width: 50px;
   }
 
-  li:hover {
-    background-color: orangered;
-    text-transform: uppercase;
-  }
+  
 
   .imgCarousel {
-    position: absolute;
-    top: 88%;
-    left: -2%;
+    width:100% !important;
+    justify-content: center !important;
+    align-items: center !important;
   }
 
   .carouselIndex {
-    justify-content: center;
+    justify-content: left;
     align-items: center;
   }
 
@@ -66,4 +74,5 @@ body {
     font-size: 2rem;
     text-align: center  ;
   }
+
 }

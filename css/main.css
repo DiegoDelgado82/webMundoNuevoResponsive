@@ -15,21 +15,25 @@ body header {
   z-index: 1;
   top: 0px;
 }
+body header .botonMenu:hover {
+  background-color: orangered;
+  text-transform: uppercase;
+}
+body header li:hover {
+  background-color: orangered;
+  text-transform: uppercase;
+}
 body #logo {
   border-radius: 10px;
   width: 50px;
 }
-body li:hover {
-  background-color: orangered;
-  text-transform: uppercase;
-}
 body .imgCarousel {
-  position: absolute;
-  top: 88%;
-  left: -2%;
+  width: 100% !important;
+  justify-content: center !important;
+  align-items: center !important;
 }
 body .carouselIndex {
-  justify-content: center;
+  justify-content: left;
   align-items: center;
 }
 body footer {
