@@ -60,4 +60,9 @@ body .redes {
   text-align: center;
 }
 
+.fondoBg {
+  background: rgb(246, 206, 43);
+  background: linear-gradient(45deg, rgb(246, 206, 43) 0%, rgb(231, 147, 10) 0%, rgb(232, 137, 23) 48%, rgb(244, 5, 202) 100%);
+}
+
 /*# sourceMappingURL=main.css.map */
