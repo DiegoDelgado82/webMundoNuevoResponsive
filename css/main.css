@@ -29,12 +29,19 @@ body #logo {
 }
 body .titulo_page {
   font-family: "EB Garamond", serif;
-  font-size: 5rem;
-  margin-top: 5% !important;
+  font-size: 4rem;
+  color: orangered;
+  display: inline;
+}
+body .titulo_page2 {
+  font-family: "EB Garamond", serif;
+  font-size: 4rem;
+  color: rgb(102, 19, 102);
+  display: inline;
 }
 body .subTituloPage {
   font-family: "EB Garamond", serif;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
 }
 body .imgCarousel {
   width: 100% !important;
