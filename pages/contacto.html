@@ -14,7 +14,7 @@
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/main.css" />
     <link rel="icon" type="image/x-icon" href="../img/favicon.ico" />
     <title>Mundo Nuevo - Página de contacto</title>
   </head>
@@ -22,67 +22,82 @@
   <body>
     <header>
       
-      <nav class=" navbar navbar-expand-lg navbar-dark shadow-5-strong">
+      <nav
+        class="navbar navbar-expand-lg navbar-dark shadow bg-body-tertiary opacity-80"
+      >
         <div class="container-fluid">
           <a class="navbar-brand" href="#"
-            ><img id="logo" src="../img/logoOrigin.jpg" alt="logo"
+            ><img id="logo" src="../img/logo.png" alt="logo"
           /></a>
 
           <button
-            class="navbar-toggler"
+            class="navbar-toggler bg-black"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown"
             aria-expanded="false"
             aria-label="Toggle navigation"
+            id="menuBurger"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../index.html"
-                  >Inicio</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="historia.html">Historia</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="equipo.html">Equipo</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="servicios.html">Servicios</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="socios.html">Socios</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contacto.html">Contacto</a>
-              </li>
-            </ul>
+            <b>
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active text-dark"
+                    aria-current="page"
+                    href="../index.html"
+                    >Inicio</a
+                  >
+                </li>
+                <li class="nav-item text-dark">
+                  <a class="nav-link text-dark" href="">Institucional</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="./pages/servicios.html"
+                    >Servicios</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="./pages/equipo.html"
+                    >Infraestructura</a
+                  >
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="./pages/socios.html"
+                    >Pacientes</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="./pages/equipo.html"
+                    >Novedades</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="./pages/contacto.html"
+                    >Contacto</a
+                  >
+                </li>
+              </ul>
+            </b>
           </div>
         </div>
       </nav>
     </header>
 
     <main>
-      <section class="container-fluid mt-30" id="carouselSection">
+      
+      <section class="container-fluid mt-5">
         <div class="row">
-          <h1 class="h1 mt-4 mb-4 col-12" id="superior"></h1>
-          <h2 class="h2 mt-4" id="tituloPrincipal">
-            Centro de Rehabilitación Neurológica Nuevo Mundo
-          </h2>
-        </div>
-      </section>
-
-      <section class="container-fluid">
-        <div class="row">
-          <div class="col-1"></div>
-
+          
+            <p class="mt-0 mb-0"><span class=" titulo_page">Mundo </span><span class=" titulo_page2">Nuevo</span></p>
+            <p class="h4 subTituloPage mt-0">Centro de Rehabilitación Neurológica</p>
           <div class="col-12">
-            <h2 class="h2 text-bg-light">Contacto</h2>
+            <h2 class="h2 titulos">Contacto</h2>
           </div>
           <div class="col-1"></div>
         </div>
@@ -173,20 +188,36 @@
           </div>
         </div>
       </section>
-
-      <footer class="container-fluid mt-5">
-        <p class="leyendaMundo">
-          MundoNuevo. Gregorio Vélez 4019 - Cerro de las Rosas CP: 5009 -
-          Córdoba Capital - Argentina Tel: +54 351-4848000
-        </p>
-        <p class="leyenda">© 2022 - 2023 Todos los derechos reservados</p>
-        <p class="leyenda">Diseñado por Think Solutions <br /></p>
-        <p class="leyenda"></p>
-      </footer>
     </main>
+      <footer class="container-fluid">
+        <div class="row justify-content-around">
+          <div class="col-12">
+            <img class="logo_Footer" src="/img/footer/logoFooter.png" alt="logo" />
+            <div class="row"></div>
+            
+          </div>
+          <div class="col-12 ">
+            <p class="leyendaMundo">
+              MundoNuevo. Gregorio Vélez 4019 - Cerro de las Rosas CP: 5009 -
+              Córdoba Capital Tel: +54 351-4823435
+            </p>
+           
+          </div>
+          
+          <div class="col-12">
+            
+            <p class="">HORARIO DE ATENCIÓN: Lunes a Viernes de 9 a 18 hs.</p>
+            
+          </div>
+  
+          <div class="col-12 ">   
+            <p class="">Desarrollado por Think Solutions -2023.  Todos los derechos reservados</p>
+          </div>
+        </div>
+      </footer>
+    
 
-    <footer></footer>
-
+    
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"

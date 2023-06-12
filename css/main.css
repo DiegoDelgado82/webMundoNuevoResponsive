@@ -6,7 +6,7 @@
 
 body {
   background-size: 20%;
-  font-family: "Rubik", sans-serif;
+  font-family: "EB Garamond", serif;
   width: 100%;
 }
 body header {
@@ -28,19 +28,16 @@ body #logo {
   width: 50px;
 }
 body .titulo_page {
-  font-family: "EB Garamond", serif;
   font-size: 4rem;
   color: orangered;
   display: inline;
 }
 body .titulo_page2 {
-  font-family: "EB Garamond", serif;
   font-size: 4rem;
   color: rgb(102, 19, 102);
   display: inline;
 }
 body .subTituloPage {
-  font-family: "EB Garamond", serif;
   font-size: 1.5rem;
 }
 body .imgCarousel {
@@ -60,11 +57,10 @@ body footer {
 }
 body .logo_Footer {
   margin-top: 20px;
-  width: 70%;
+  width: 20rem;
   border-radius: 10px;
 }
 body .leyendaFooter {
-  font-family: "EB Garamond", serif;
   text-align: left !important;
   display: block;
   font-size: 1rem;
@@ -79,6 +75,10 @@ body .redes {
 .fondoBg {
   background: rgb(246, 206, 43);
   background: linear-gradient(45deg, rgb(246, 206, 43) 0%, rgb(231, 147, 10) 0%, rgb(232, 137, 23) 48%, rgb(244, 5, 202) 100%);
+}
+
+.titulos {
+  color: orange;
 }
 
 /*# sourceMappingURL=main.css.map */
