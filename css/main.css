@@ -41,8 +41,8 @@ body .subTituloPage {
   font-size: 1.5rem;
   position: absolute;
   z-index: 5;
-  top: 260px;
-  left: 50px;
+  top: 100px;
+  left: 20px;
   animation-name: titulo_move;
   animation-duration: 4s;
   animation-delay: 1s;
