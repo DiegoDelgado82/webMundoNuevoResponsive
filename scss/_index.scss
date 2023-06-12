@@ -52,8 +52,19 @@ body {
   }
   .subTituloPage{
  
-    font-size: 1.5rem;
-  }
+  font-size: 1.5rem;
+  position: absolute;
+  top:120px;
+  
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: 1s;
+}
+
+@keyframes example {
+  0%   {left:0px; top:0px;}
+  100% { left:0px; top:120px;}
+}
   .imgCarousel {
     width:100% !important;
     justify-content: center !important;
@@ -61,7 +72,7 @@ body {
   }
 
   .carouselIndex {
-    justify-content: left;
+    justify-content:center;
     align-items: center;
   }
 
