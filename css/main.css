@@ -37,6 +37,20 @@ body .titulo_page2 {
   font-size: 4rem;
   color: rgb(102, 19, 102);
 }
+
+body.titulo_principal
+{
+position: absolute;
+  z-index: 5;
+  top: 60px;
+  left: 20px;
+  animation-name: titulo_move;
+  animation-duration: 4s;
+  animation-delay: 1s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: backwards;
+}
 body .subTituloPage {
   font-size: 1.5rem;
   position: absolute;
