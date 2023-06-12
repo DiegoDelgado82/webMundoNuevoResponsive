@@ -77,6 +77,18 @@ body .redes {
   background: linear-gradient(45deg, rgb(246, 206, 43) 0%, rgb(231, 147, 10) 0%, rgb(232, 137, 23) 48%, rgb(244, 5, 202) 100%);
 }
 
+.titulo_page {
+  font-size: 4rem;
+  color: orangered;
+  display: inline;
+}
+
+.titulo_page2 {
+  font-size: 4rem;
+  color: rgb(102, 19, 102);
+  display: inline;
+}
+
 .titulos {
   color: orange;
 }
