@@ -60,7 +60,7 @@ body .imgCarousel {
   align-items: center !important;
 }
 body .carouselIndex {
-  justify-content: left;
+  justify-content: center;
   align-items: center;
 }
 body footer {
