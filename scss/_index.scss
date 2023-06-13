@@ -58,7 +58,7 @@ body {
   .titulo_page
   {
     
-    font-size: 3rem;
+    font-size: 3rem !important;
     
     color:orangered;
     display: inline;
@@ -68,16 +68,16 @@ body {
   .titulo_page2
   {
    
-    font-size: 3rem;
+    font-size: 3rem !important;
     
     color:rgb(102, 19, 102);
     display: inline;
   }
   .subTituloPage{
     z-index:2;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   position: absolute;
-  top:120px;
+  top:100px;
   animation-name: tituloMove;
   animation-duration:1s;
   animation-delay: 1s;
@@ -85,7 +85,7 @@ body {
 
 @keyframes tituloMove {
   0%   {left:0px; top:0px;}
-  100% { left:0px; top:120px;}
+  100% { left:0px; top:100px;}
 }
   .imgCarousel {
     width:100% ;

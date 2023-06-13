@@ -38,20 +38,20 @@ body .titulo_principal {
   border-radius: 10px;
 }
 body .titulo_page {
-  font-size: 3rem;
+  font-size: 3rem !important;
   color: orangered;
   display: inline;
 }
 body .titulo_page2 {
-  font-size: 3rem;
+  font-size: 3rem !important;
   color: rgb(102, 19, 102);
   display: inline;
 }
 body .subTituloPage {
   z-index: 2;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   position: absolute;
-  top: 120px;
+  top: 100px;
   animation-name: tituloMove;
   animation-duration: 1s;
   animation-delay: 1s;
@@ -63,7 +63,7 @@ body .subTituloPage {
   }
   100% {
     left: 0px;
-    top: 120px;
+    top: 100px;
   }
 }
 body .imgCarousel {
@@ -111,16 +111,6 @@ body {
 body .fondoBg {
   background: rgb(246, 206, 43);
   background: linear-gradient(45deg, rgb(246, 206, 43) 0%, rgb(231, 147, 10) 0%, rgb(232, 137, 23) 48%, rgb(244, 5, 202) 100%);
-}
-body .titulo_page {
-  font-size: 4rem;
-  color: orangered;
-  display: inline;
-}
-body .titulo_page2 {
-  font-size: 4rem;
-  color: rgb(102, 19, 102);
-  display: inline;
 }
 
 .titulos {
