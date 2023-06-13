@@ -9,10 +9,16 @@ body {
   font-family: 'EB Garamond', serif;
   width: 100%;
 
+  .bgMenu
+  {
+    background-color: orangered;
+  }
+
   .fondoCarousel
   {
     background-color: orangered;
   }
+
 
   header {
     position: fixed;
@@ -39,20 +45,20 @@ body {
 
   .titulo_principal
   {
-    position: absolute;
-    top:65px;
-    left:10px;
-    width: auto;
+    //position: absolute;
+    //top:65px;
+    //left:10px;
+    //width: auto;
     z-index: 2;
-    background-color: rgb(240, 248, 248);
+    //background-color: rgb(240, 248, 248);
     border-radius: 10px;
-
+    
   } 
 
   .titulo_page
   {
     
-    font-size: 4rem;
+    font-size: 3rem;
     
     color:orangered;
     display: inline;
@@ -62,7 +68,7 @@ body {
   .titulo_page2
   {
    
-    font-size: 4rem;
+    font-size: 3rem;
     
     color:rgb(102, 19, 102);
     display: inline;
@@ -90,8 +96,16 @@ body {
   .carouselIndex {
     justify-content:center;
     align-items: center;
+    
   }
 
+  .bgOrange
+  {
+    background-color: rgb(255, 95, 2);
+    color: white;
+    font-size: 1rem;
+    height: 13rem;
+  }
   footer {
     background-color: black;
     color: white;

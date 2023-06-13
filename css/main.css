@@ -9,6 +9,9 @@ body {
   font-family: "EB Garamond", serif;
   width: 100%;
 }
+body .bgMenu {
+  background-color: orangered;
+}
 body .fondoCarousel {
   background-color: orangered;
 }
@@ -31,21 +34,16 @@ body #logo {
   width: 50px;
 }
 body .titulo_principal {
-  position: absolute;
-  top: 65px;
-  left: 10px;
-  width: auto;
   z-index: 2;
-  background-color: rgb(240, 248, 248);
   border-radius: 10px;
 }
 body .titulo_page {
-  font-size: 4rem;
+  font-size: 3rem;
   color: orangered;
   display: inline;
 }
 body .titulo_page2 {
-  font-size: 4rem;
+  font-size: 3rem;
   color: rgb(102, 19, 102);
   display: inline;
 }
@@ -76,6 +74,12 @@ body .imgCarousel {
 body .carouselIndex {
   justify-content: center;
   align-items: center;
+}
+body .bgOrange {
+  background-color: rgb(255, 95, 2);
+  color: white;
+  font-size: 1rem;
+  height: 13rem;
 }
 body footer {
   background-color: black;
