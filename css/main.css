@@ -51,7 +51,7 @@ body .subTituloPage {
   z-index: 2;
   font-size: 1.5rem;
   position: absolute;
-  top: 135px;
+  top: 120px;
   animation-name: tituloMove;
   animation-duration: 1s;
   animation-delay: 1s;
@@ -63,7 +63,7 @@ body .subTituloPage {
   }
   100% {
     left: 0px;
-    top: 135px;
+    top: 120px;
   }
 }
 body .imgCarousel {
@@ -79,7 +79,6 @@ body .bgOrange {
   background-color: rgb(255, 95, 2);
   color: white;
   font-size: 1rem;
-  height: 13rem;
 }
 body footer {
   background-color: black;
