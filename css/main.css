@@ -9,6 +9,9 @@ body {
   font-family: "EB Garamond", serif;
   width: 100%;
 }
+body .fondoCarousel {
+  background-color: orangered;
+}
 body header {
   position: fixed;
   width: 100%;
@@ -27,35 +30,46 @@ body #logo {
   border-radius: 10px;
   width: 50px;
 }
+body .titulo_principal {
+  position: absolute;
+  top: 65px;
+  left: 10px;
+  width: auto;
+  z-index: 2;
+  background-color: rgb(240, 248, 248);
+  border-radius: 10px;
+}
 body .titulo_page {
   font-size: 4rem;
   color: orangered;
-  
-  
+  display: inline;
 }
 body .titulo_page2 {
   font-size: 4rem;
   color: rgb(102, 19, 102);
+  display: inline;
 }
-
-
 body .subTituloPage {
+  z-index: 2;
   font-size: 1.5rem;
   position: absolute;
-  top:120px;
-  
-  animation-name: titulo_move;
-  animation-duration: 4s;
+  top: 135px;
+  animation-name: tituloMove;
+  animation-duration: 1s;
   animation-delay: 1s;
 }
-
-@keyframes titulo_move {
-  0%   {left:0px; top:0px;}
-  100% { left:0px; top:120px;}
+@keyframes tituloMove {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  100% {
+    left: 0px;
+    top: 135px;
+  }
 }
-
 body .imgCarousel {
-  width: 100% !important;
+  width: 100%;
   justify-content: center !important;
   align-items: center !important;
 }
@@ -105,9 +119,6 @@ body .titulo_page2 {
   color: rgb(102, 19, 102);
   display: inline;
 }
-
-
- 
 
 .titulos {
   color: orange;

@@ -9,6 +9,11 @@ body {
   font-family: 'EB Garamond', serif;
   width: 100%;
 
+  .fondoCarousel
+  {
+    background-color: orangered;
+  }
+
   header {
     position: fixed;
     width: 100%;
@@ -32,6 +37,18 @@ body {
     width: 50px;
   }
 
+  .titulo_principal
+  {
+    position: absolute;
+    top:65px;
+    left:10px;
+    width: auto;
+    z-index: 2;
+    background-color: rgb(240, 248, 248);
+    border-radius: 10px;
+
+  } 
+
   .titulo_page
   {
     
@@ -51,22 +68,21 @@ body {
     display: inline;
   }
   .subTituloPage{
- 
+    z-index:2;
   font-size: 1.5rem;
   position: absolute;
-  top:120px;
-  
-  animation-name: example;
-  animation-duration: 4s;
+  top:135px;
+  animation-name: tituloMove;
+  animation-duration:1s;
   animation-delay: 1s;
 }
 
-@keyframes example {
+@keyframes tituloMove {
   0%   {left:0px; top:0px;}
-  100% { left:0px; top:120px;}
+  100% { left:0px; top:135px;}
 }
   .imgCarousel {
-    width:100% !important;
+    width:100% ;
     justify-content: center !important;
     align-items: center !important;
   }
