@@ -131,4 +131,21 @@ body .fondoBg {
   z-index: 2;
 }
 
+#botonContacto {
+  background-color: orange;
+  border-color: orangered;
+}
+
+#mapa {
+  width: 100%;
+  height: 100%;
+}
+
+#form {
+  background: rgb(241, 66, 16);
+  background: linear-gradient(90deg, rgb(241, 66, 16) 0%, rgb(241, 187, 13) 100%, rgb(0, 212, 255) 100%);
+  border-radius: 5px;
+  height: 100%;
+}
+
 /*# sourceMappingURL=main.css.map */
