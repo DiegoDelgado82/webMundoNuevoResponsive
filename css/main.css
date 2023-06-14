@@ -113,8 +113,22 @@ body .fondoBg {
   background: linear-gradient(45deg, rgb(246, 206, 43) 0%, rgb(231, 147, 10) 0%, rgb(232, 137, 23) 48%, rgb(244, 5, 202) 100%);
 }
 
+.iconoLink {
+  font-size: 1rem;
+  background-color: black;
+  color: white;
+  border-radius: 100%;
+  padding: 3%;
+}
+
 .titulos {
   color: orange;
+}
+
+.imgGaleria:hover {
+  width: 200%;
+  height: 200%;
+  z-index: 2;
 }
 
 /*# sourceMappingURL=main.css.map */
