@@ -84,6 +84,11 @@ body .bgOrange {
   color: black;
   font-size: 1rem;
 }
+body .bgOrangeClaro {
+  background-color: orange;
+  color: black;
+  font-size: 1rem;
+}
 body footer {
   background-color: black;
   color: white;
@@ -130,6 +135,11 @@ body .fondoBg {
 
 .titulos {
   color: orange;
+}
+
+.borderInsti {
+  border-color: orange !important;
+  border-width: 2px !important;
 }
 
 .imgGaleria:hover {

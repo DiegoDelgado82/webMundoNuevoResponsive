@@ -1,5 +1,6 @@
 $fuente: "EB Garamond", serif;
 $colorBack:orangered; 
+$colorBackClaro:orange; 
 
 @mixin estiloFijo {
   z-index: 2;
@@ -9,6 +10,10 @@ $colorBack:orangered;
 }
 @mixin estiloNaranja {
   background-color: $colorBack;
+  color:black;
+}
+@mixin estiloNaranjaClaro {
+  background-color: $colorBackClaro;
   color:black;
 }
 
@@ -108,6 +113,13 @@ body {
   .bgOrange
   {
     @include estiloNaranja;
+    font-size: 1rem;
+    
+  }
+
+  .bgOrangeClaro
+  {
+    @include estiloNaranjaClaro();
     font-size: 1rem;
     
   }
