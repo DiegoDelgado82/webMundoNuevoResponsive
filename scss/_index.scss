@@ -1,3 +1,18 @@
+$fuente: "EB Garamond", serif;
+$colorBack:orangered; 
+
+@mixin estiloFijo {
+  z-index: 2;
+  font-size: 1.2rem;
+  position: absolute;
+  top: 100px;
+}
+@mixin estiloNaranja {
+  background-color: $colorBack;
+  color:black;
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -6,17 +21,17 @@
 
 body {
   background-size: 20%;
-  font-family: 'EB Garamond', serif;
+  font-family: $fuente;
   width: 100%;
 
   .bgMenu
   {
-    background-color: orangered;
+    @include estiloNaranja;
   }
 
   .fondoCarousel
   {
-    background-color: orangered;
+    @include estiloNaranja;
   }
 
 
@@ -27,13 +42,12 @@ body {
     top: 0px;
 
     .botonMenu:hover {
-        background-color: orangered;
-       
+      @include estiloNaranja;
         text-transform: uppercase;
       }
 
       li:hover {
-        background-color: orangered;
+        @include estiloNaranja;
         text-transform: uppercase;
       }
   }
@@ -45,12 +59,7 @@ body {
 
   .titulo_principal
   {
-    //position: absolute;
-    //top:65px;
-    //left:10px;
-    //width: auto;
     z-index: 2;
-    //background-color: rgb(240, 248, 248);
     border-radius: 10px;
     
   } 
@@ -60,7 +69,7 @@ body {
     
     font-size: 3rem !important;
     
-    color:orangered;
+    color:$colorBack;
     display: inline;
   }
 
@@ -74,10 +83,7 @@ body {
     display: inline;
   }
   .subTituloPage{
-    z-index:2;
-  font-size: 1.2rem;
-  position: absolute;
-  top:100px;
+  @include estiloFijo;
   animation-name: tituloMove;
   animation-duration:1s;
   animation-delay: 1s;
@@ -101,8 +107,7 @@ body {
 
   .bgOrange
   {
-    background-color: rgb(255, 95, 2);
-    color: white;
+    @include estiloNaranja;
     font-size: 1rem;
     
   }
@@ -137,4 +142,8 @@ body {
     text-align: center  ;
   }
 
+  .borderCard
+  {
+    border-radius: 5px;
+  }
 }

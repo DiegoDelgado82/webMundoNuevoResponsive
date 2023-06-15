@@ -11,9 +11,11 @@ body {
 }
 body .bgMenu {
   background-color: orangered;
+  color: black;
 }
 body .fondoCarousel {
   background-color: orangered;
+  color: black;
 }
 body header {
   position: fixed;
@@ -23,10 +25,12 @@ body header {
 }
 body header .botonMenu:hover {
   background-color: orangered;
+  color: black;
   text-transform: uppercase;
 }
 body header li:hover {
   background-color: orangered;
+  color: black;
   text-transform: uppercase;
 }
 body #logo {
@@ -76,8 +80,8 @@ body .carouselIndex {
   align-items: center;
 }
 body .bgOrange {
-  background-color: rgb(255, 95, 2);
-  color: white;
+  background-color: orangered;
+  color: black;
   font-size: 1rem;
 }
 body footer {
@@ -101,6 +105,9 @@ body .redes {
   width: 15%;
   font-size: 2rem;
   text-align: center;
+}
+body .borderCard {
+  border-radius: 5px;
 }
 
 body {
@@ -142,7 +149,8 @@ body .fondoBg {
 }
 
 #form {
-  background: rgb(241, 66, 16);
+  background-color: orangered;
+  color: black;
   background: linear-gradient(90deg, rgb(241, 66, 16) 0%, rgb(241, 187, 13) 100%, rgb(0, 212, 255) 100%);
   border-radius: 5px;
   height: 100%;
