@@ -17,6 +17,15 @@ body .fondoCarousel {
   background-color: orangered;
   color: black;
 }
+body .textoCarousel {
+  position: absolute;
+  z-index: 1;
+  top: 87%;
+  left: 5%;
+  color: white;
+  background-color: orange;
+  border-radius: 10px 0px;
+}
 body header {
   position: fixed;
   width: 100%;

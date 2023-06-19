@@ -1,6 +1,8 @@
 $fuente: "EB Garamond", serif;
 $colorBack:orangered; 
 $colorBackClaro:orange; 
+$size:25px;
+
 
 @mixin estiloFijo {
   z-index: 2;
@@ -38,7 +40,18 @@ body {
   {
     @include estiloNaranja;
   }
-
+.textoCarousel
+{
+  position: absolute;
+  z-index: 1;
+  top:87%;
+  left:5%;
+  color:white;
+  
+  background-color: orange;
+  border-radius: 10px 0px;
+ 
+}
 
   header {
     position: fixed;
