@@ -24,12 +24,12 @@ body header {
   top: 0px;
 }
 body header .botonMenu:hover {
-  background-color: orangered;
+  background-color: orange;
   color: black;
   text-transform: uppercase;
 }
 body header li:hover {
-  background-color: orangered;
+  background-color: orange;
   color: black;
   text-transform: uppercase;
 }
