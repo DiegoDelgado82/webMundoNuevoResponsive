@@ -20,11 +20,17 @@ body .fondoCarousel {
 body .textoCarousel {
   position: absolute;
   z-index: 1;
-  top: 87%;
-  left: 5%;
+  top: 85%;
+  left: 3%;
+  text-align: center;
   color: white;
+  font-size: 5vw;
   background-color: orange;
   border-radius: 10px 0px;
+}
+body .divPrueba {
+  position: relative;
+  display: inline-block;
 }
 body header {
   position: fixed;
