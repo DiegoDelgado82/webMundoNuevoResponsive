@@ -7,3 +7,20 @@ function enviarConsulta()
 
 return mensaje
 }
+
+function cambiarImagenContenedor(dir)
+{
+
+    const container = document.querySelector("#container");
+    container.innerHTML="";
+    const img = document.createElement("img");
+    img.src = dir;
+    img.alt = "Foto Infraestructura";
+    
+    container.appendChild(img);
+
+    /* let imagenCarousel=document.getElementById("contenedorCarousel") 
+    alert(dir);
+    imagenCarousel.scr="https://mdbcdn.b-cdn.net/img/Photos/Slides/1.webp"
+    alert(imagenCarousel.scr)*/
+}
