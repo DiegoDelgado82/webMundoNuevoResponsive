@@ -24,7 +24,7 @@ body .textoCarousel {
   left: 3%;
   text-align: center;
   color: white;
-  font-size: 5vw;
+  font-size: 4vw;
   background-color: orange;
   border-radius: 10px 0px;
 }
@@ -128,6 +128,10 @@ body .redes {
 }
 body .borderCard {
   border-radius: 5px;
+}
+
+.textoPrincipal {
+  font-size: 2vh;
 }
 
 body {
