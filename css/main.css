@@ -171,6 +171,10 @@ body .fondoBg {
   z-index: 2;
 }
 
+.contenedorInfraestructura {
+  width: 100px;
+}
+
 #botonContacto {
   background-color: orange;
   border-color: orangered;
