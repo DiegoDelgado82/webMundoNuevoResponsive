@@ -131,7 +131,11 @@ body .borderCard {
 }
 
 .textoPrincipal {
-  font-size: 2vh;
+  font-size: 1.5rem;
+}
+
+.textoSecundario {
+  font-size: 1.2rem;
 }
 
 body {
