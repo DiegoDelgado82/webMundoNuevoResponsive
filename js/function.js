@@ -24,3 +24,13 @@ function cambiarImagenContenedor(dir)
     imagenCarousel.scr="https://mdbcdn.b-cdn.net/img/Photos/Slides/1.webp"
     alert(imagenCarousel.scr)*/
 }
+
+
+function modalAreas(area, contenido)
+
+{
+
+document.getElementById("tituloModal").textContent=area;
+document.getElementById("contenidoModal").textContent=contenido;
+
+}
