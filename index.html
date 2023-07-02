@@ -42,8 +42,7 @@
     <title>Mundo Nuevo. Página Principal</title>
   </head>
 
-  <body >
-    
+  <body>
     <header class="d-inline-block z-3">
       <nav class="navbar navbar-expand-lg bg-body-tertiary navbar opacity-10">
         <div class="container-fluid">
@@ -113,7 +112,7 @@
 
     <main>
       <section class="container-fluid">
-        <div class="row carouselIndex ">
+        <div class="row carouselIndex">
           <p class="mt-5 mb-0 titulo_principal">
             <span class="titulo_page">Mundo </span
             ><span class="titulo_page2">Nuevo</span>
@@ -121,18 +120,18 @@
           <p class="h4 subTituloPage mt-0">
             Centro de Rehabilitación Neurológica
           </p>
-         
-          <div 
+
+          <div
             id="carouselExampleRide"
-            class="carousel slide mt-3 d-block row container-fluid col-xxl-10 col-xl-10 "
+            class="carousel slide mt-3 d-block row container-fluid col-xxl-10 col-xl-10"
             data-bs-ride="true"
           >
-          
             <!--  EL diagnostico no es una sentencia sino un pasaporte para buscar el apoyo que se necesita para ser feliz-->
-            <div class="carousel-inner  col-12 " >
-              
-              <h1 class="textoCarousel col-11 ">"En nuestro mundo caben todos los colores"</h1>
-            
+            <div class="carousel-inner col-12">
+              <h1 class="textoCarousel col-11">
+                "En nuestro mundo caben todos los colores"
+              </h1>
+
               <div class="carousel-item active carouselIndex">
                 <img
                   class="d-block w-100 imgCarousel"
@@ -251,7 +250,6 @@
               title="YouTube video player"
               frameborder="0"
             ></iframe>
-            
           </div>
         </div>
       </section>
@@ -259,7 +257,7 @@
         <h2 class="titulos mt-5">Nuestras Áreas</h2>
         <div class="row">
           <div
-            class="col-xs-12 col-sm-6 col-lg-2 col--gap-lg mb-2 bgOrangeClaro py-2 border border-white borderCard  text-center "
+            class="col-xs-12 col-sm-6 col-lg-2 col--gap-lg mb-2 bgOrangeClaro py-2 border border-white borderCard text-center"
           >
             <div class="card bgOrangeClaro border-0">
               <img
@@ -267,7 +265,7 @@
                 src="./img/transtornos/TMotor.jpg"
                 alt="Tratamiento motores y sensoriales"
               />
-              <div class="card-body" >
+              <div class="card-body">
                 <p
                   class="card-text text-center textoSecundario"
                   data-toggle="tooltip"
@@ -277,52 +275,68 @@
                 </p>
               </div>
             </div>
-            <button type="button" class="btn btn-primary bgOrange" data-bs-toggle="modal" data-bs-target="#miModal" 
-            onclick="modalAreas('Área Sensorial - Motora','Busca promover y conseguir una mejora en el movimiento integrando muchas técnicas para fortalecer el cuerpo y evitar aquello que lo debilita.')">
+            <button
+              type="button"
+              class="btn btn-primary bgOrange"
+              data-bs-toggle="modal"
+              data-bs-target="#miModal"
+              onclick="modalAreas('Área Sensorial - Motora','Busca promover y conseguir una mejora en el movimiento integrando muchas técnicas para fortalecer el cuerpo y evitar aquello que lo debilita.')"
+            >
               Más información
             </button>
           </div>
           <div
-            class="col-xs-12 col-sm-6 col-lg-2 col--gap-lg mb-2 bgOrangeClaro py-2 border border-white borderCard  text-center "
+            class="col-xs-12 col-sm-6 col-lg-2 col--gap-lg mb-2 bgOrangeClaro py-2 border border-white borderCard text-center"
           >
             <div class="card bgOrangeClaro border-0">
               <img
-                class="card-img-top "
+                class="card-img-top"
                 src="./img/transtornos/TNeurologicos.jpg"
                 alt="Tratamiento Neurocognitivos"
               />
-              <div class="card-body" >
-                <p class="card-text text-center textoSecundario">Neurocognitíva</p>
+              <div class="card-body">
+                <p class="card-text text-center textoSecundario">
+                  Neurocognitíva
+                </p>
               </div>
             </div>
-            <button type="button" class="btn btn-primary bgOrange" data-bs-toggle="modal" data-bs-target="#miModal" 
-            onclick="modalAreas('Área Neurocognitíva','En esta área tenemos como objetivo, mejorar las capacidades cognitivas, tales como la atención, memoria operativa, flexibilidad cognitiva, planificación y funciones ejecutivas, de forma que se facilitara la mejora del funcionamiento social de los pacientes.')">
+            <button
+              type="button"
+              class="btn btn-primary bgOrange"
+              data-bs-toggle="modal"
+              data-bs-target="#miModal"
+              onclick="modalAreas('Área Neurocognitíva','En esta área tenemos como objetivo, mejorar las capacidades cognitivas, tales como la atención, memoria operativa, flexibilidad cognitiva, planificación y funciones ejecutivas, de forma que se facilitara la mejora del funcionamiento social de los pacientes.')"
+            >
               Más información
             </button>
           </div>
           <div
-            class="col-xs-12 col-sm-6 col-lg-2 col--gap-lg mb-2 bgOrangeClaro py-2 border border-white borderCard  text-center shadow"
+            class="col-xs-12 col-sm-6 col-lg-2 col--gap-lg mb-2 bgOrangeClaro py-2 border border-white borderCard text-center shadow"
           >
-            <div class="card  bgOrangeClaro border-0">
+            <div class="card bgOrangeClaro border-0">
               <img
                 class="card-img-top"
                 src="./img/transtornos/TLenguaje.jpg"
                 alt="Tratamiento de Comunicación"
               />
-              <div class="card-body" >
+              <div class="card-body">
                 <p class="card-text text-center textoSecundario">
                   Comunicación y Lenguaje
                 </p>
               </div>
             </div>
-            <button type="button" class="btn btn-primary bgOrange" data-bs-toggle="modal" data-bs-target="#miModal" 
-            onclick="modalAreas('Área Comunicación y Lenguaje','Se encarga de evaluar, diagnosticar y tratar todo el ciclo vital en las áreas de comunicación humana, especialmente de los trastornos del habla y la audición.')">
+            <button
+              type="button"
+              class="btn btn-primary bgOrange"
+              data-bs-toggle="modal"
+              data-bs-target="#miModal"
+              onclick="modalAreas('Área Comunicación y Lenguaje','Se encarga de evaluar, diagnosticar y tratar todo el ciclo vital en las áreas de comunicación humana, especialmente de los trastornos del habla y la audición.')"
+            >
               Más información
             </button>
           </div>
           <div
-            class="col-xs-12 col-sm-6 col-lg-2 col--gap-lg mb-2 bgOrangeClaro py-2 border border-white borderCard text-center "
-            
+            class="col-xs-12 col-sm-6 col-lg-2 col--gap-lg mb-2 bgOrangeClaro py-2 border border-white borderCard text-center"
           >
             <div class="card bgOrangeClaro border-0">
               <img
@@ -331,39 +345,46 @@
                 alt="Tratamiento Psicológicos"
               />
               <div class="card-body">
-                <p class="card-text text-center textoSecundario">
-                  Psicología
-                </p>
+                <p class="card-text text-center textoSecundario">Psicología</p>
               </div>
             </div>
-            <button type="button" class="btn btn-primary bgOrange" data-bs-toggle="modal" data-bs-target="#miModal" 
-            onclick="modalAreas('Área Psicología','es la encargada, desde la perspectiva psicológica, de abordar el estudio del desarrollo de los niños/as hasta la llegada de la adultez. Es un periodo de gran importancia donde se establecen las bases de la personalidad del futuro adulto. Desde esta perspectiva, es muy importante atender a las características y circunstancias de los diferentes contextos donde se produce el desarrollo del niño/a, fundamentalmente nos referimos al entorno familiar y escolar.')">
-              Más información
-            </button>
-          </div>
-          
-          <div
-            class="col-xs-12 col-sm-6 col-lg-2 col--gap-lg mb-2 bgOrangeClaro py-2 border border-white borderCard  text-center "
-          >
-            <div class="card bgOrangeClaro border-0">
-              <img
-             
-                class="card-img-top"
-                src="./img/transtornos/TAprendizaje.jpg"
-                alt="Tratamiento de Aprendizaje"
-              />
-              <div class="card-body" >
-                <p class="card-text text-center textoSecundario">Aprendizaje</p>
-              </div>
-            </div>
-            <button type="button" class="btn btn-primary bgOrange" data-bs-toggle="modal" data-bs-target="#miModal" 
-            onclick="modalAreas('Área Aprendizaje',' En esta área con ocupamos de asesorar, diagnosticar y programar propuestas de intervención para niños, adolescentes, que tengan problemas o trastornos de aprendizaje. Nuestra intervención, puede incluir a centros escolares y equipos de orientación.')">
+            <button
+              type="button"
+              class="btn btn-primary bgOrange"
+              data-bs-toggle="modal"
+              data-bs-target="#miModal"
+              onclick="modalAreas('Área Psicología','es la encargada, desde la perspectiva psicológica, de abordar el estudio del desarrollo de los niños/as hasta la llegada de la adultez. Es un periodo de gran importancia donde se establecen las bases de la personalidad del futuro adulto. Desde esta perspectiva, es muy importante atender a las características y circunstancias de los diferentes contextos donde se produce el desarrollo del niño/a, fundamentalmente nos referimos al entorno familiar y escolar.')"
+            >
               Más información
             </button>
           </div>
 
           <div
-            class="col-xs-12 col-sm-6 col-lg-2 col--gap-lg mb-2 bgOrangeClaro py-2 border border-white borderCard  text-center "
+            class="col-xs-12 col-sm-6 col-lg-2 col--gap-lg mb-2 bgOrangeClaro py-2 border border-white borderCard text-center"
+          >
+            <div class="card bgOrangeClaro border-0">
+              <img
+                class="card-img-top"
+                src="./img/transtornos/TAprendizaje.jpg"
+                alt="Tratamiento de Aprendizaje"
+              />
+              <div class="card-body">
+                <p class="card-text text-center textoSecundario">Aprendizaje</p>
+              </div>
+            </div>
+            <button
+              type="button"
+              class="btn btn-primary bgOrange"
+              data-bs-toggle="modal"
+              data-bs-target="#miModal"
+              onclick="modalAreas('Área Aprendizaje',' En esta área con ocupamos de asesorar, diagnosticar y programar propuestas de intervención para niños, adolescentes, que tengan problemas o trastornos de aprendizaje. Nuestra intervención, puede incluir a centros escolares y equipos de orientación.')"
+            >
+              Más información
+            </button>
+          </div>
+
+          <div
+            class="col-xs-12 col-sm-6 col-lg-2 col--gap-lg mb-2 bgOrangeClaro py-2 border border-white borderCard text-center"
           >
             <div class="card bgOrangeClaro border-0">
               <img
@@ -375,39 +396,47 @@
                 <p class="card-text text-center textoSecundario">Conducta</p>
               </div>
             </div>
-            <button type="button" class="btn btn-primary bgOrange" data-bs-toggle="modal" data-bs-target="#miModal" 
-            onclick="modalAreas('Área Psicología','')">
+            <button
+              type="button"
+              class="btn btn-primary bgOrange"
+              data-bs-toggle="modal"
+              data-bs-target="#miModal"
+              onclick="modalAreas('Área Conducta','En esta área nos ocupamos del diagnóstico de los trastornos del comportamiento en niños y jóvenes, quienes reciben  un entrenamiento en habilidades sociales y desarrollo de conductas prosociales. Ofrecemos a las familias  pautas y herramientas encaminadas a aprender a manejar el comportamiento del hijo y mejorar así el clima familiar. También brindamos un servicio de ayuda diseñado de forma individualizada, detallando un plan de actuación a desarrollar desde la escuela, con intervenciones eficaces y específicas ante los problemas de comportamiento que puedan darse en ella.')"
+            >
               Más información
             </button>
           </div>
-          
         </div>
 
+        <!--MODAL-->
 
-<!--MODAL-->
+        <div
+          class="modal fade"
+          id="miModal"
+          tabindex="-1"
+          aria-labelledby="miModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="tituloModal"></h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Cerrar"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <p id="contenidoModal"></p>
+              </div>
+              <div class="modal-footer"></div>
+            </div>
+          </div>
+        </div>
 
-
-
-<div class="modal fade" id="miModal" tabindex="-1" aria-labelledby="miModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="tituloModal"></h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
-      </div>
-      <div class="modal-body">
-        <p id="contenidoModal"></p>
-      </div>
-      <div class="modal-footer">
-        
-      </div>
-    </div>
-  </div>
-</div>
-
-<!--FIN MODAL-->
-
-
+        <!--FIN MODAL-->
       </section>
 
       <section class="container-fluid">
@@ -439,7 +468,8 @@
           <div class="col-12 mt-3">
             <p class="m-0 text-decoration-underline">DIRECCIÓN</p>
             <p class="m-0">
-              Gobernador José Esteban Bustos 1365 - Cerro de las Rosas - Córdoba Capital
+              Gobernador José Esteban Bustos 1365 - Cerro de las Rosas - Córdoba
+              Capital
             </p>
             <p class="m-0 text-decoration-underline">TELÉFONO</p>
             <p class="m-0">+54 351-3446478</p>
