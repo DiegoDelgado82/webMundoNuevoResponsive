@@ -1,6 +1,7 @@
 $fuente: "EB Garamond", serif;
 $colorBack:orangered; 
 $colorBackClaro:orange; 
+$colorBackIntermedio:rgb(250, 122, 37); 
 $size:25px;
 
 
@@ -19,6 +20,10 @@ $size:25px;
   color:black;
 }
 
+@mixin estiloNaranjaIntermedio{
+  background-color: $colorBackIntermedio;
+  color:black;
+}
 
 * {
   margin: 0;
@@ -142,6 +147,15 @@ body {
     font-size: 1rem;
     
   }
+
+  .bgOrangeIntermedio
+  {
+    @include estiloNaranjaIntermedio();
+    font-size: 1rem;
+    border:none;
+    
+  }
+
   footer {
     background-color: black;
     color: white;

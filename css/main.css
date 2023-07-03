@@ -105,6 +105,12 @@ body .bgOrangeClaro {
   color: black;
   font-size: 1rem;
 }
+body .bgOrangeIntermedio {
+  background-color: rgb(250, 122, 37);
+  color: black;
+  font-size: 1rem;
+  border: none;
+}
 body footer {
   background-color: black;
   color: white;
@@ -156,6 +162,11 @@ body .fondoBg {
   color: white;
   border-radius: 100%;
   padding: 3%;
+}
+
+.textoSub {
+  font-size: 1.2rem;
+  text-align: left;
 }
 
 .titulos {
