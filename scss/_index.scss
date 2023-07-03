@@ -72,13 +72,13 @@ body {
     top: 0px;
 
     .botonMenu:hover {
-      @include estiloNaranjaClaro;
+      @include estiloNaranja();
         text-transform: uppercase;
       }
 
       li:hover {
         @include estiloNaranjaClaro();
-        text-transform: uppercase;
+        
       }
   }
 
